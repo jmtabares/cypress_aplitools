@@ -9,6 +9,8 @@
     "cy:run": "cypress run",
     "cy:headed": "cypress run --headed",
     "cy:chrome": "cypress run --browser chrome",
+    "cy:chromespec": "cypress run --browser chrome --spec",
+    "cy:spec": "cypress run --spec",
     "update": "npm i cypress@latest typescript@latest ts-loader@latest webpack@latest @cypress/webpack-preprocessor@latest -S -E"
   },
   "author": "jair.tabares",

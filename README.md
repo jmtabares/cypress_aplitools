@@ -46,4 +46,6 @@ module.exports = (on) => {
   * Execute specific spec headless (Electron browser) with video recording `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:run -- --record --spec "cypress/integration/my-spec.js"`
   * Execute Electron headed mode `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:headed`
   * Execute with chrome `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:chrome`
+  * Execute specific spec headed Chrome `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run  cy:chromespec -- -- "cypress/integration/tutorial/firstspec.spec.ts"`
+  * Execute specific spec headless (Electron browser) with video recording `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run  cy:spec -- "cypress/integration/tutorial/firstspec.spec.ts"`
 
