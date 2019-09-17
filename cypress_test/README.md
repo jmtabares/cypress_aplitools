@@ -1,4 +1,6 @@
-# cypress
+# Cypress - Applitools turorial
+Pre requisites: Node.js should be instaled
+You can use any IDE, for this exmaple I used VS Code
 Install (OSX):
 1. Create a new directory  `mkdir cypress_test`
 2. Enter to the created dir `cd cypress_test`
@@ -39,7 +41,8 @@ module.exports = (on) => {
 ````    
 9. Or clone this repo and execute `npm install`
 8. To run
-npm run cypress:open
-npm run cy:run -- --record --spec "cypress/integration/my-spec.js"
-npm run cy:headed to run electron headed mode
-npm run cy:chrome
+8.1 open cypress  `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cypress:open`
+8.2 Execute specific spec headless (Electron browser) with video recording `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:run -- --record --spec "cypress/integration/my-spec.js"`
+8.3 Execute Electron headed mode `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:headed`
+8.4 Execute with chrome `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:chrome`
+
