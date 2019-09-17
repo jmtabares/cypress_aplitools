@@ -1,6 +1,6 @@
 import { LoginPage } from "../../../src/pages/LoginPage";
 import { RegistrationPage } from "../../../src/pages/RegistrationPage";
-describe("Regfistration and Login functionality", ()=>
+describe("Registration and Login functionality", ()=>
     {
         it("login functionality with valid credentials", () =>
         {
