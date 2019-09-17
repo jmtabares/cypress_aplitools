@@ -25,11 +25,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmtabares/cypress.git"
+    "url": "git+https://github.com/jmtabares/cypress_aplitools.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/jmtabares/cypress/issues"
+    "url": "https://github.com/jmtabares/cypress_aplitools/issues"
   },
-  "homepage": "https://github.com/jmtabares/cypress#readme"
+  "homepage": "https://github.com/jmtabares/cypress_aplitools#readme"
 }
