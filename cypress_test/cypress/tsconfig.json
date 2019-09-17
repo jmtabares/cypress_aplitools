@@ -7,6 +7,9 @@
         ]
     },
     "include": [
-        "**/*.*"
+        "**/*.*", "../applitools.config.js"
     ]
+    //"files": ["./node_modules/@applitools/eyes-cypress/src/setup/eyes-index.d.ts"]
+
+    
 }

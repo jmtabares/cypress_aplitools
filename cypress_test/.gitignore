@@ -2,3 +2,4 @@
 cypress/screenshots/examples/mango.spec.js/Mango Challenge -- Click on search button (failed).png
 *.png
 *.mp4
+node_modules/
