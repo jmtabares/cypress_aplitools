@@ -42,8 +42,8 @@ module.exports = (on) => {
 ````    
 9. Or clone this repo and execute `npm install`
 8. To run
-  1. open cypress  `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cypress:open`
-  2. Execute specific spec headless (Electron browser) with video recording `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:run -- --record --spec "cypress/integration/my-spec.js"`
-  3. Execute Electron headed mode `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:headed`
-  4. Execute with chrome `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:chrome`
+  * open cypress  `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cypress:open`
+  * Execute specific spec headless (Electron browser) with video recording `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:run -- --record --spec "cypress/integration/my-spec.js"`
+  * Execute Electron headed mode `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:headed`
+  * Execute with chrome `APPLITOOLS_API_KEY=<Your_applitools_api_keyu> npm run cy:chrome`
 
