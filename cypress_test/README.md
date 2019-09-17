@@ -1,6 +1,7 @@
 # Cypress - Applitools turorial
 Pre requisites: Node.js should be instaled
 You can use any IDE, for this exmaple I used VS Code
+For Applitools: you should create a free account on https://applitools.com/ y get your APPLITOOLS_API_KEY from your welcome email
 Install (OSX):
 1. Create a new directory  `mkdir cypress_test`
 2. Enter to the created dir `cd cypress_test`
